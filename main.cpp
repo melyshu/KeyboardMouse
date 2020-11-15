@@ -42,9 +42,6 @@ const std::map<int, int> MOUSE_BUTTON_KEYS = {
     {KEY_SPACE, BTN_RIGHT}
 };
 
-
-const float EPSILON = 1e-6;
-
 using seconds = std::chrono::duration<float>;
 const auto MOUSE_MODIFIER_VOID_DURATION = std::chrono::milliseconds(300);
 
